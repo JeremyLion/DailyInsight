@@ -1040,7 +1040,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-__webpack_require__(12);A;
+__webpack_require__(12);
 
 window.Vue = __webpack_require__(35);
 

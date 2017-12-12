@@ -9,6 +9,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/semantic.min.css') }}">
+        <script src="{{ asset('js/semantic.min.js') }}"></script>
 
         <!-- Styles -->
         <style>
