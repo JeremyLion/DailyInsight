@@ -5,9 +5,12 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+require('./bootstrap');A
 
 window.Vue = require('vue');
+import Buefy from 'buefy';
+
+Vue.use(Buefy);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15,7 +18,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+//Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 const app = new Vue({
     el: '#app'
