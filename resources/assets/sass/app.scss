@@ -5,4 +5,10 @@
 // Variables
 @import "variables";
 
+//Semantic UI
 @import "../lib/semantic/dist/semantic";
+
+//Custom Css
+@import "overides";
+@import "helpers";
+@import "styles";

@@ -1,0 +1,41 @@
+body{
+  background:burlywood;
+  color:#fff;
+}
+
+.login-form{
+  max-width:350px;
+}
+
+.nav-icon {
+  display: inline-block;
+  overflow: visible;
+  position: fixed;
+  left: 4.16667%;
+  top: 40%;
+  z-index: 320;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 37px;
+  height: 100px;
+}
+
+.nav-icon a {
+  display: block;
+  width: 37px;
+  height: 24px;
+  z-index: 900;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin: -12px 0 0 0;
+}
+
+.nav-icon svg path {
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  fill: #ffffff;
+  stroke: #ffffff;
+  stroke-width: 2px;
+}
